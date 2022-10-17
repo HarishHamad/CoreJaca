@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile</title>
+</head>
+
+<body>
+    <img align="right" src="png.logo (1).jpg" alt="" height="100">
+    <a href="welcome.html">Welcome </a> |
+    <a href="logout.html">Logout <br><br> </a>
+
+    <b>Hi, admin(Admin)</b>
+    <br><br><br>
+    <a href="marksheet.html">Get Marksheet</a> |
+    <a href="merit.html">Marksheet Merit List</a> |
+    <a href="profile.html">MyProfile</a> |
+    <a href="changepassword.html">Change Password</a> |
+    <a href="javadoc.html">Java Doc</a> |
+    <a href="addm.html">Add Marksheet</a> |
+    <a href="marksheetlist.html">Marksheet List</a> |
+    <a href="user.html">Add user</a> |
+    <a href="userlist.html">User List</a> |
+    <a href="addcollege.html">Add College</a> |
+    <a href="collegelist.html">College List</a> |
+    <a href="addstudent.html">Add Student</a> |
+    <a href="studentlist.html">Student List</a> | <br>
+    <a href="addrole.html">Add Role</a> |
+    <a href="rolelist.html">Role List</a> |
+
+    <hr />
+
+    <h1 align="center">My Profile</h1>
+    <form action="changepassword.html">
+        <table align="center">
+            <tr>
+                <th><label for="login">Login Id*</label></th>
+                <td><input type="email" name="LoginId" id="login" placeholder="admin@gmail.com" required><br></td>
+
+            </tr>
+            <tr>
+                <th><label for="fname">First Name*</label></th>
+                <td><input type="text" name="First Name" id="fname" placeholder="Enter your First Name" required>
+                    <font style="color: red"> First Name is required</font><br>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="lname">Last Name*</label></th>
+                <td><input type="text" name="Last Name" id="lname" placeholder="Enter your Last Name" required>
+                    <font style="color: red"> Last Name is required</font><br>
+                </td>
+            </tr>
+            <tr>
+                <th><label>Gender*</label></th>
+                <td><select>
+                        <option value="" >Male</option>
+                        <option value="" >Female</option>
+                    </select></td>
+
+            </tr>
+            <tr>
+                <th><label for="mob"> Mobile No*</label></th>
+                <td><input type="digit" name="Mobile No" id="mob" placeholder="Enter your mo no." required>
+                    <font style="color: red"> Last Name is required</font><br>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="dob">Date of Birth (dd/mm/yyyy)*</label></th>
+                <td><input type="date" name="Date of Birth" id="dob" required>
+                    <font style="color: red">Date of Birth is required</font>
+                </td>
+            </tr>
+            
+        </table>
+     <div align="center">
+        <a  href="changepassword.html"><button>Save</button></a> &nbsp;
+        <a  href="changepassword.html"><button>Change Password</button></a>
+    </div>
+    </form>
+   
+</body>
+
+</html>

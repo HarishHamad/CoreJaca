@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+</head>
+
+<body>
+    <img href="welcome.html" align="right" src="png.logo (1).jpg" alt="" height="100">
+    <a href="logout.html">Login <br><br> </a>
+    <h3>Hi,Guest</h3>
+    <br>
+    <hr>
+    <div align="center">
+        <h1>User Registration</h1>
+        <hp>Registration is done <br><br> Login Id already exists</p>
+    </div>
+    <form action="logout.html">
+        <table align="center">
+            <tr>
+                <th><label for="fname">First Name*</label></th>
+                <td><input type="text" name="First Name" id="fname" placeholder="Enter your First Name" required>
+                    <font style="color: red"> First Name is required</font>
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="lname">Last Name*</label></th>
+                <td><input type="text" name="Last Name" id="lname" placeholder="Enter your Last Name" required>
+                    <font style="color: red"> Last Name is required</font>
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="Login">Login Id*</label></th>
+                <td><input type="email" name="Login Id" id="Login" placeholder="Must be email" required>
+                    <font style="color: red"> Login Id is required</font>
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="pas">Password*</label></th>
+                <td><input type="password" name="Password" id="pas" placeholder="Enter your Password" required>
+                    <font style="color: red"> Password is required</font>
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="confirm pas"> Confirm Password*</label></th>
+                <td><input type="password" name="Confirm Password" id="confirm pas"
+                        placeholder="Enter your Confirm Password" required>
+                    <font style="color: red"> Confirm Password is required</font>
+                </td>
+            </tr>
+            <tr>
+                <th><label>Gender*</label></th>
+                <td>
+                    <label for="mal"> Male</label>
+                    <input type="radio" name="Gender" id="mal" required>
+                    &nbsp;&nbsp;
+                    <label for="fem">Female</label>
+                    <input type="radio" name="Gender" id="fem" value="Female" required>
+
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <th><label>Gender*</label></th>
+                <td><select name="Gender">
+                        <option value="ml">Male </option>
+                        <option value="fm">Female</option>
+                    </select></td>
+            </tr>
+
+            <tr>
+                <th><label for="dob">Date of Birth (dd/mm/yyyy)*</label></th>
+                <td><input type="date" name="Date of Birth" id="dob" required>
+                    <font style="color: red">Date of Birth is required</font>
+                </td>
+            </tr>
+            
+            <tr>
+             <td colspan="2" align="center">
+                <input type="Submit" name="Operation" value="Signup">
+             </td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+    <h4 align="center">&copy Copyrights SunilOS infotech Pvt. Ltd.</h4>
+</body>
+
+</html>
